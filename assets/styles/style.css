@@ -715,16 +715,12 @@ body {
         line-height: 20px;
         color: #515978;
     }
-    #paymentpage-container p, #wysiwyg-root p {
-        white-space: nowrap;
-        word-wrap: break-word;
-    }
+ 
     #paymentpage-container .ql-editor h2 {
         line-height: 1.5em;
         font-size: 18px;
         font-weight: bold;
         margin-bottom: 8px;
-        white-space: nowrap;
 
     }
     #paymentpage-container .ql-editor ul, #paymentpage-container .ql-editor ol {
