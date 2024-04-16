@@ -128,7 +128,6 @@ body {
     line-height: 22px;
 }
 #paymentpage-container .text-line, #wysiwyg-root .text-line {
-    white-space: pre-line;
     word-wrap: break-word;
 }
 #paymentpage-container #description-quill.ql-disabled {
@@ -177,17 +176,16 @@ body {
     color: #0d2366;
 }
 #paymentpage-container .ql-editor ul, #paymentpage-container .ql-editor ol {
-    padding-left: 16px;
-    margin: 8px 0;
+    padding-left: 45px;
 }
 #paymentpage-container .ql-editor ul li, #paymentpage-container .ql-editor ol li {
-    line-height: 20px;
+    line-height: 18px;
     margin-bottom: 10px;
     position: relative;
-    font-size: 13px;
+    font-size: 12px;
 }
 .ql-editor ol li:not(.ql-direction-rtl), .ql-editor ul li:not(.ql-direction-rtl) {
-    padding-left: 1.5em;
+    /* padding-left: 1.5em; */
 }
 #paymentpage-container .ql-editor ul li::before {
     text-align: center;
@@ -213,13 +211,15 @@ body {
  
 
 #details-view label {
-    font-size: 14px;
+    font-size: 17px;
     font-weight: bold;
     line-height: 18px;
     color: #0d2366;
     margin-bottom: 8px;
 }
-
+#terms-details{
+    padding-bottom: 20px;
+}
 
 #details-view #details-section > div .sub-detail {
     line-height: 28px;
@@ -231,12 +231,18 @@ body {
     display: inline-block;
 }
 #details-view #support-details svg {
-    fill: #0d2366;
-    width: 16px;
-    margin-right: 8px;
+    fill: rgb(0,152,218);
+    width: 20px;
+    margin-right: 12px;
 }
 
-
+.custom{
+    display: flex !important;
+    justify-content: space-between !important;
+}
+.Field-content2{
+    margin-left: 0px !important;
+}
 #details-view #support-details a div {
     color: #0d2366;
     font-size: 14px;
@@ -349,6 +355,13 @@ body {
     max-width: 360px;
     color: #0d2366;
 }
+.UI-form.UI-form .Field-wrapper2 {
+    position: relative;
+    height: 36px;
+     width: 200px !important;
+ 
+    color: #0d2366;
+}
 .UI-form.UI-form .Field-addon {
     position: absolute;
     top: 0;
@@ -367,6 +380,10 @@ body {
     padding: 0 9px;
     outline: none;
     color: inherit;
+}
+.line-trogh{
+    text-decoration-line: line-through;
+  text-decoration-color: red;
 }
 .UI-form.UI-form .Field-addon {
     position: absolute;
@@ -733,7 +750,7 @@ body {
         position: relative;
     }
     .ql-editor ol li:not(.ql-direction-rtl), .ql-editor ul li:not(.ql-direction-rtl) {
-        padding-left: 1.5em;
+        /* padding-left: 1.5em; */
     }
     .ql-editor li::before {
         display: inline-block;
